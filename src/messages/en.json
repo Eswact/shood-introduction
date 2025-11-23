@@ -1,0 +1,200 @@
+{
+  "seo": {
+    "title": {
+      "default": "Shood",
+      "template": "%s | Shood"
+    },
+    "description": "Your base project for a Next.js website with tailwindcss, SEO, i18n, and pwa support.",
+    "keywords": [
+      "next.js",
+      "react",
+      "website",
+      "multilingual",
+      "i18n"
+    ],
+    "openGraph": {
+      "title": "Shood",
+      "description": "Your base project for a Next.js website with tailwindcss, SEO, i18n, and pwa support.",
+      "type": "website",
+      "siteName": "Shood",
+      "locale": "en_US",
+      "images": [
+        "/og-image-en.png"
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@shood",
+      "creator": "@shood"
+    }
+  },
+  "shared": {
+    "services": "Services",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "company": {
+      "description": "Building innovative digital solutions that transform businesses and create lasting impact in the digital world."
+    },
+    "quick-links": {
+      "title": "Quick Links",
+      "items": {
+        "home": "Home",
+        "services": "Our Services",
+        "about": "About Us",
+        "contact": "Contact"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "items": {
+        "web-development": "Web Development",
+        "mobile-apps": "Mobile Apps",
+        "cloud-solutions": "Cloud Solutions",
+        "ui-ux-design": "UI/UX Design",
+        "consulting": "Consulting",
+        "maintenance": "Maintenance"
+      }
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "email-label": "Email",
+      "email": "hello@shood.com",
+      "phone-label": "Phone",
+      "phone": "+1 (555) 123-4567",
+      "address-label": "Address",
+      "address": "123 Tech Street, San Francisco, CA 94102"
+    },
+    "bottom": {
+      "copyright": "© {year} Shood. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  },
+  "landing": {
+    "home": {
+      "title": {
+        "first-line": {
+          "start": "We turn your",
+          "highlight": "ideas",
+          "end": "into"
+        },
+        "second-line": "powerful digital",
+        "third-line": "experiences."
+      },
+      "description": "We analyze your business needs and craft modern, scalable software solutions tailored to your goals. From web and mobile development to custom integrations, we focus on clear communication, reliable delivery, and user-centered design. Our team is dedicated to building technology that strengthens your brand and drives long-term growth.",
+      "contact": "Contact Us"
+    },
+    "services": {
+      "section": "Services",
+      "title": "How We Help You Grow",
+      "subtitle": "We help modern businesses strengthen their digital presence with tailored, scalable, and reliable technology solutions. From web and mobile development to cloud infrastructure, design, and consulting, our services are crafted to meet your unique needs. Our goal is to deliver effective, long-term solutions that empower your brand’s sustainable growth.",
+      "items": [
+        {
+          "title": "Web Development",
+          "description": "Modern, responsive websites built with cutting-edge technologies"
+        },
+        {
+          "title": "Mobile Apps",
+          "description": "Native and cross-platform mobile applications for iOS and Android"
+        },
+        {
+          "title": "Cloud Solutions",
+          "description": "Scalable cloud infrastructure and deployment strategies"
+        },
+        {
+          "title": "UI/UX Design",
+          "description": "User-centered design that enhances engagement and conversion"
+        },
+        {
+          "title": "Consulting",
+          "description": "Strategic guidance to optimize your digital transformation"
+        },
+        {
+          "title": "Maintenance",
+          "description": "Ongoing support and updates to keep your systems running smoothly"
+        }
+      ]
+    },
+    "about": {
+      "section": "About us",
+      "title": "We build digital excellence",
+      "description": "We are a team of passionate developers, designers, and strategists committed to delivering exceptional digital solutions. Our approach combines technical expertise with creative thinking to solve complex challenges and drive meaningful results for our clients. We focus on understanding each project's unique needs and crafting tailored solutions that make a lasting impact. Dedicated to constant innovation, we strive to elevate every digital experience we create.",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Projects Completed"
+        },
+        {
+          "value": "30+",
+          "label": "Happy Clients"
+        },
+        {
+          "value": "5+",
+          "label": "Years Experience"
+        },
+        {
+          "value": "15+",
+          "label": "Team Members"
+        }
+      ],
+      "story": {
+        "title": "Our Story",
+        "description": "Founded with a vision to bridge the gap between innovative ideas and practical digital solutions, we've grown from a small startup into a trusted technology partner for businesses worldwide. Every project we take on reflects our commitment to quality, innovation, and client success. We believe in building long-term relationships based on transparency, reliability, and exceptional results. Over the years, our team has continued to evolve, embracing new technologies and methodologies to stay ahead of industry trends. What began as a small vision has transformed into a dynamic, forward-thinking organization dedicated to helping brands thrive in an ever-changing digital world."
+      },
+      "team": {
+        "title": "Meet Our Team",
+        "subtitle": "A diverse group of talented professionals dedicated to your success",
+        "members": [
+          {
+            "name": "John Doe",
+            "role": "CEO & Founder",
+            "bio": "15+ years of experience in software development and business strategy",
+            "image": "/images/team/john-doe.png"
+          },
+          {
+            "name": "Jane Smith",
+            "role": "CTO",
+            "bio": "Expert in cloud architecture and scalable system design",
+            "image": "/images/team/jane-smith.png"
+          },
+          {
+            "name": "Mike Johnson",
+            "role": "Lead Designer",
+            "bio": "Creating beautiful, functional user experiences for 10+ years",
+            "image": "/images/team/mike-johnson.png"
+          },
+          {
+            "name": "Sarah Williams",
+            "role": "Project Manager",
+            "bio": "Ensuring smooth delivery and client satisfaction on every project",
+            "image": "/images/team/sarah-williams.png"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "section": "Contact",
+      "title": "Get In Touch",
+      "subtitle": "Have a project in mind? Let's discuss how we can help bring your vision to life.",
+      "form": {
+        "name-label": "Full Name",
+        "name": "John Doe",
+        "email-label": "Email Address",
+        "email": "john@example.com",
+        "subject-label": "Subject",
+        "subject": "I want to discuss a project",
+        "message-label": "Message",
+        "message": "Tell us about your project...",
+        "submit": "Send Message"
+      },
+      "info": {
+        "email": "hello@shood.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Tech Street, San Francisco, CA 94102"
+      }
+    }
+  }
+}

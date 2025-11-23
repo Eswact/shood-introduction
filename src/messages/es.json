@@ -1,0 +1,200 @@
+{
+  "seo": {
+    "title": {
+      "default": "Shood",
+      "template": "%s | Shood"
+    },
+    "description": "Su proyecto base para un sitio web Next.js con soporte para tailwindcss, SEO, i18n y pwa.",
+    "keywords": [
+      "next.js",
+      "react",
+      "sitio web",
+      "multilingüe",
+      "i18n"
+    ],
+    "openGraph": {
+      "title": "Shood",
+      "description": "Su proyecto base para un sitio web Next.js con soporte para tailwindcss, SEO, i18n y pwa.",
+      "type": "website",
+      "siteName": "Shood",
+      "locale": "es_ES",
+      "images": [
+        "/og-image-es.png"
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@shood",
+      "creator": "@shood"
+    }
+  },
+  "shared": {
+    "services": "Servicios",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "company": {
+      "description": "Creamos soluciones digitales innovadoras que transforman negocios y generan un impacto duradero en el mundo digital."
+    },
+    "quick-links": {
+      "title": "Enlaces Rápidos",
+      "items": {
+        "home": "Inicio",
+        "services": "Nuestros Servicios",
+        "about": "Sobre Nosotros",
+        "contact": "Contacto"
+      }
+    },
+    "services": {
+      "title": "Servicios",
+      "items": {
+        "web-development": "Desarrollo Web",
+        "mobile-apps": "Aplicaciones Móviles",
+        "cloud-solutions": "Soluciones en la Nube",
+        "ui-ux-design": "Diseño UI/UX",
+        "consulting": "Consultoría",
+        "maintenance": "Mantenimiento"
+      }
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "email-label": "Correo Electrónico",
+      "email": "hello@shood.com",
+      "phone-label": "Teléfono",
+      "phone": "+1 (555) 123-4567",
+      "address-label": "Dirección",
+      "address": "123 Tech Street, San Francisco, CA 94102"
+    },
+    "bottom": {
+      "copyright": "© {year} Shood. Todos los derechos reservados.",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos del Servicio",
+      "cookies": "Política de Cookies"
+    }
+  },
+  "landing": {
+    "home": {
+      "title": {
+        "first-line": {
+          "start": "Convertimos tus",
+          "highlight": "ideas",
+          "end": "en"
+        },
+        "second-line": "experiencias digitales",
+        "third-line": "poderosas."
+      },
+      "description": "Analizamos las necesidades de su negocio y diseñamos soluciones de software modernas y escalables adaptadas a sus objetivos. Desde el desarrollo web y móvil hasta integraciones personalizadas, nos enfocamos en una comunicación clara, una entrega confiable y un diseño centrado en el usuario. Nuestro equipo está dedicado a construir tecnología que fortalezca su marca y impulse el crecimiento a largo plazo.",
+      "contact": "Contáctenos"
+    },
+    "services": {
+      "section": "Servicios",
+      "title": "Cómo Te Ayudamos a Crecer",
+      "subtitle": "Ayudamos a las empresas modernas a fortalecer su presencia digital mediante soluciones tecnológicas a medida, escalables y confiables. Desde desarrollo web y móvil hasta infraestructura en la nube, diseño y consultoría, nuestros servicios se adaptan a las necesidades de tu marca. Nuestro objetivo es ofrecer soluciones efectivas y duraderas que impulsen el crecimiento sostenible de tu negocio.",
+      "items": [
+        {
+          "title": "Desarrollo Web",
+          "description": "Sitios web modernos y responsivos construidos con tecnologías de vanguardia"
+        },
+        {
+          "title": "Aplicaciones Móviles",
+          "description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android"
+        },
+        {
+          "title": "Soluciones en la Nube",
+          "description": "Infraestructura en la nube escalable y estrategias de implementación"
+        },
+        {
+          "title": "Diseño UI/UX",
+          "description": "Diseño centrado en el usuario que mejora el compromiso y la conversión"
+        },
+        {
+          "title": "Consultoría",
+          "description": "Orientación estratégica para optimizar tu transformación digital"
+        },
+        {
+          "title": "Mantenimiento",
+          "description": "Soporte continuo y actualizaciones para mantener tus sistemas funcionando sin problemas"
+        }
+      ]
+    },
+    "about": {
+      "section": "Acerca de",
+      "title": "Construimos excelencia digital",
+      "description": "Somos un equipo de desarrolladores, diseñadores y estrategas apasionados, comprometidos con ofrecer soluciones digitales excepcionales. Nuestro enfoque combina experiencia técnica con pensamiento creativo para resolver desafíos complejos y generar resultados significativos para nuestros clientes. Nos enfocamos en comprender las necesidades únicas de cada proyecto y crear soluciones a medida que generen un impacto duradero. Dedicados a la innovación constante, buscamos elevar cada experiencia digital que construimos.",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Proyectos Completados"
+        },
+        {
+          "value": "30+",
+          "label": "Clientes Satisfechos"
+        },
+        {
+          "value": "5+",
+          "label": "Años de Experiencia"
+        },
+        {
+          "value": "15+",
+          "label": "Miembros del Equipo"
+        }
+      ],
+      "story": {
+        "title": "Nuestra Historia",
+        "description": "Fundados con la visión de cerrar la brecha entre las ideas innovadoras y las soluciones digitales prácticas, hemos crecido de ser una pequeña startup a convertirnos en un socio tecnológico de confianza para empresas de todo el mundo. Cada proyecto que asumimos refleja nuestro compromiso con la calidad, la innovación y el éxito del cliente. Creemos en construir relaciones a largo plazo basadas en la transparencia, la fiabilidad y resultados excepcionales. A lo largo de los años, nuestro equipo ha evolucionado continuamente, adoptando nuevas tecnologías y metodologías para mantenerse a la vanguardia de las tendencias del sector. Lo que comenzó como una pequeña visión se ha convertido en una organización dinámica y visionaria dedicada a ayudar a las marcas a prosperar en un mundo digital en constante cambio."
+      },
+      "team": {
+        "title": "Conoce a Nuestro Equipo",
+        "subtitle": "Un grupo diverso de profesionales talentosos dedicados a tu éxito",
+        "members": [
+          {
+            "name": "John Doe",
+            "role": "CEO y Fundador",
+            "bio": "Más de 15 años de experiencia en desarrollo de software y estrategia empresarial",
+            "image": "/images/team/john-doe.png"
+          },
+          {
+            "name": "Jane Smith",
+            "role": "CTO",
+            "bio": "Experta en arquitectura en la nube y diseño de sistemas escalables",
+            "image": "/images/team/jane-smith.png"
+          },
+          {
+            "name": "Mike Johnson",
+            "role": "Líder de Diseño",
+            "bio": "Diseñando experiencias de usuario hermosas y funcionales por más de 10 años",
+            "image": "/images/team/mike-johnson.png"
+          },
+          {
+            "name": "Sarah Williams",
+            "role": "Gerente de Proyectos",
+            "bio": "Garantiza una entrega fluida y la satisfacción del cliente en cada proyecto",
+            "image": "/images/team/sarah-williams.png"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "section": "Contacto",
+      "title": "Ponte en Contacto",
+      "subtitle": "¿Tienes un proyecto en mente? Hablemos sobre cómo podemos ayudarte a hacer realidad tu visión.",
+      "form": {
+        "name-label": "Nombre Completo",
+        "name": "John Doe",
+        "email-label": "Correo Electrónico",
+        "email": "john@example.com",
+        "subject-label": "Asunto",
+        "subject": "Quiero hablar sobre un proyecto",
+        "message-label": "Mensaje",
+        "message": "Cuéntanos sobre tu proyecto...",
+        "submit": "Enviar Mensaje"
+      },
+      "info": {
+        "email": "hello@shood.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Tech Street, San Francisco, CA 94102"
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "seo": {
+    "title": {
+      "default": "Shood",
+      "template": "%s | Shood"
+    },
+    "description": "Tailwindcss, SEO, i18n ve pwa desteğine sahip Next.js web siteniz için temel projeniz.",
+    "keywords": [
+      "next.js",
+      "react",
+      "web sitesi",
+      "çok dilli",
+      "i18n"
+    ],
+    "openGraph": {
+      "title": "Shood",
+      "description": "Tailwindcss, SEO, i18n ve pwa desteğine sahip Next.js web siteniz için temel projeniz.",
+      "type": "website",
+      "siteName": "Shood",
+      "locale": "tr_TR",
+      "images": [
+        "/og-image-tr.png"
+      ]
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@shood",
+      "creator": "@shood"
+    }
+  },
+  "shared": {
+    "services": "Hizmetlerimiz",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "company": {
+      "description": "Dijital dünyada işletmeleri dönüştüren ve kalıcı etki oluşturan yenilikçi dijital çözümler üretiyoruz."
+    },
+    "quick-links": {
+      "title": "Hızlı Bağlantılar",
+      "items": {
+        "home": "Ana Sayfa",
+        "services": "Hizmetlerimiz",
+        "about": "Hakkımızda",
+        "contact": "İletişim"
+      }
+    },
+    "services": {
+      "title": "Hizmetler",
+      "items": {
+        "web-development": "Web Geliştirme",
+        "mobile-apps": "Mobil Uygulamalar",
+        "cloud-solutions": "Bulut Çözümleri",
+        "ui-ux-design": "UI/UX Tasarımı",
+        "consulting": "Danışmanlık",
+        "maintenance": "Bakım"
+      }
+    },
+    "contact": {
+      "title": "İletişime Geçin",
+      "email-label": "E-posta",
+      "email": "hello@shood.com",
+      "phone-label": "Telefon",
+      "phone": "+1 (555) 123-4567",
+      "address-label": "Adres",
+      "address": "123 Tech Street, San Francisco, CA 94102"
+    },
+    "bottom": {
+      "copyright": "© {year} Shood. Tüm hakları saklıdır.",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları",
+      "cookies": "Çerez Politikası"
+    }
+  },
+  "landing": {
+    "home": {
+      "title": {
+        "first-line": {
+          "start": "Sizin",
+          "highlight": "Fikirlerinizi",
+          "end": ""
+        },
+        "second-line": "güçlü dijital deneyimlere",
+        "third-line": "dönüştürüyoruz."
+      },
+      "description": "İş ihtiyaçlarınızı analiz ediyor ve hedeflerinize uygun modern, ölçeklenebilir yazılım çözümleri tasarlıyoruz. Web ve mobil geliştirmeden özel entegrasyonlara kadar, net iletişim, güvenilir teslimat ve kullanıcı odaklı tasarıma odaklanıyoruz. Ekibimiz, markanızı güçlendiren ve uzun vadeli büyümeyi destekleyen teknolojiler inşa etmeye kendini adamıştır.",
+      "contact": "Bize Ulaşın"
+    },
+    "services": {
+      "section": "Hizmetlerimiz",
+      "title": "Büyümenize Yardımcı Oluyoruz",
+      "subtitle": "Modern işletmelerin dijital dünyada güçlü bir varlık oluşturmasına yardımcı oluyoruz. Web ve mobil geliştirmeden bulut çözümlerine, tasarımdan danışmanlığa kadar sunduğumuz hizmetlerle, markanızın ihtiyaçlarına uygun ölçeklenebilir ve güvenilir teknolojiler geliştiriyoruz. Amacımız, sürdürülebilir büyümenizi destekleyen etkili ve uzun vadeli çözümler üretmektir.",
+      "items": [
+        {
+          "title": "Web Geliştirme",
+          "description": "En son teknolojilerle oluşturulmuş modern ve duyarlı web siteleri"
+        },
+        {
+          "title": "Mobil Uygulamalar",
+          "description": "iOS ve Android için yerel ve çapraz platform mobil uygulamalar"
+        },
+        {
+          "title": "Bulut Çözümleri",
+          "description": "Ölçeklenebilir bulut altyapısı ve dağıtım stratejileri"
+        },
+        {
+          "title": "UI/UX Tasarımı",
+          "description": "Kullanıcı etkileşimini ve dönüşümleri artıran kullanıcı odaklı tasarım"
+        },
+        {
+          "title": "Danışmanlık",
+          "description": "Dijital dönüşümünüzü optimize etmek için stratejik rehberlik"
+        },
+        {
+          "title": "Bakım",
+          "description": "Sistemlerinizin sorunsuz çalışmasını sağlamak için sürekli destek ve güncellemeler"
+        }
+      ]
+    },
+    "about": {
+      "section": "Hakkımızda",
+      "title": "Dijital mükemmelliği inşa ediyoruz",
+      "description": "Tutkulu geliştiriciler, tasarımcılar ve stratejistlerden oluşan bir ekibiz ve olağanüstü dijital çözümler sunmaya kararlıyız. Yaklaşımımız, teknik uzmanlığı yaratıcı düşünceyle birleştirerek karmaşık sorunları çözer ve müşterilerimiz için anlamlı sonuçlar elde eder. Her projenin benzersiz ihtiyaçlarını anlayıp onlara özel çözümler üretmeye odaklanıyoruz. Sürekli yenilik peşinde olarak oluşturduğumuz her dijital deneyimi bir adım öteye taşımayı hedefliyoruz.",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Tamamlanan Proje"
+        },
+        {
+          "value": "30+",
+          "label": "Mutlu Müşteri"
+        },
+        {
+          "value": "5+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "15+",
+          "label": "Ekip Üyesi"
+        }
+      ],
+      "story": {
+        "title": "Hikayemiz",
+        "description": "Yenilikçi fikirlerle pratik dijital çözümler arasındaki boşluğu doldurma vizyonuyla kurulan ekibimiz, küçük bir girişimden dünya çapında işletmeler için güvenilir bir teknoloji ortağına dönüştü. Üstlendiğimiz her proje, kaliteye, yeniliğe ve müşteri başarısına olan bağlılığımızı yansıtır. Şeffaflık, güvenilirlik ve olağanüstü sonuçlara dayalı uzun vadeli ilişkiler kurmaya inanıyoruz. Yıllar içinde ekibimiz, sektör trendlerinin önünde olmak için yeni teknolojileri ve yöntemleri benimseyerek sürekli gelişti. Küçük bir vizyonla başlayan yolculuğumuz, hızla değişen dijital dünyada markaların büyümesine yardımcı olmaya adanmış dinamik ve ileri görüşlü bir organizasyona dönüştü."
+      },
+      "team": {
+        "title": "Ekibimizle Tanışın",
+        "subtitle": "Başarınıza adanmış yetenekli ve çeşitli bir profesyonel ekip",
+        "members": [
+          {
+            "name": "John Doe",
+            "role": "CEO & Kurucu",
+            "bio": "Yazılım geliştirme ve iş stratejisi alanında 15+ yıllık deneyim",
+            "image": "/images/team/john-doe.png"
+          },
+          {
+            "name": "Jane Smith",
+            "role": "CTO",
+            "bio": "Bulut mimarisi ve ölçeklenebilir sistem tasarımı konusunda uzman",
+            "image": "/images/team/jane-smith.png"
+          },
+          {
+            "name": "Mike Johnson",
+            "role": "Tasarım Lideri",
+            "bio": "10+ yıldır güzel ve işlevsel kullanıcı deneyimleri tasarlıyor",
+            "image": "/images/team/mike-johnson.png"
+          },
+          {
+            "name": "Sarah Williams",
+            "role": "Proje Yöneticisi",
+            "bio": "Her projede sorunsuz teslimat ve müşteri memnuniyeti sağlayan",
+            "image": "/images/team/sarah-williams.png"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "section": "İletişim",
+      "title": "Bizimle İletişime Geçin",
+      "subtitle": "Aklınızda bir proje mi var? Vizyonunuzu hayata geçirmenize nasıl yardımcı olabileceğimizi konuşalım.",
+      "form": {
+        "name-label": "Ad Soyad",
+        "name": "John Doe",
+        "email-label": "E-posta Adresi",
+        "email": "john@example.com",
+        "subject-label": "Konu",
+        "subject": "Bir proje hakkında konuşmak istiyorum",
+        "message-label": "Mesaj",
+        "message": "Bize projenizden bahsedin...",
+        "submit": "Mesaj Gönder"
+      },
+      "info": {
+        "email": "hello@shood.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Tech Street, San Francisco, CA 94102"
+      }
+    }
+  }
+}
