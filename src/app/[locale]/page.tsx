@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { Twitter, Linkedin, Github, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import ContactForm from '@/src/components/contact-form';
 
 export default async function Landing() {
   const t = await getTranslations('landing');
@@ -174,56 +175,7 @@ export default async function Landing() {
 
             <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="flex flex-col justify-center gap-6 lg:col-span-2 bg-white dark:bg-dark-bg p-10 rounded-2xl shadow-lg">
-                <form className="flex flex-col justify-center gap-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-black dark:text-white mb-2 text-left">
-                        {t('contact.form.name-label')}
-                      </label>
-                      <input
-                        type="text"
-                        placeholder={t('contact.form.name')}
-                        className="w-full px-4 py-3 rounded-xl bg-bg dark:bg-secondary text-black dark:text-white border-2 border-transparent focus:border-primary outline-none transition-all"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-black dark:text-white mb-2 text-left">
-                        {t('contact.form.email-label')}
-                      </label>
-                      <input
-                        type="email"
-                        placeholder={t('contact.form.email')}
-                        className="w-full px-4 py-3 rounded-xl bg-bg dark:bg-secondary text-black dark:text-white border-2 border-transparent focus:border-primary outline-none transition-all"
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-black dark:text-white mb-2 text-left">
-                      {t('contact.form.subject-label')}
-                    </label>
-                    <input
-                      type="text"
-                      placeholder={t('contact.form.subject')}
-                      className="w-full px-4 py-3 rounded-xl bg-bg dark:bg-secondary text-black dark:text-white border-2 border-transparent focus:border-primary outline-none transition-all"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-black dark:text-white mb-2 text-left">
-                      {t('contact.form.message-label')}
-                    </label>
-                    <textarea
-                      rows={6}
-                      placeholder={t('contact.form.message')}
-                      className="w-full px-4 py-3 rounded-xl bg-bg dark:bg-secondary text-black dark:text-white border-2 border-transparent focus:border-primary outline-none transition-all resize-none"
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-4 text-lg font-bold text-white bg-linear-to-r from-primary to-tertiary rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all"
-                  >
-                    {t('contact.form.submit')} →
-                  </button>
-                </form>
+                <ContactForm />
               </div>
 
               <div className="flex flex-col gap-4">
