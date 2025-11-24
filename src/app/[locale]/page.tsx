@@ -17,7 +17,7 @@ export default async function Landing() {
   ];
 
   return (
-    <div className="w-full pt-20 flex flex-col items-center">
+    <div className="w-full pt-20 flex flex-col items-center overflow-x-hidden">
       {/* HOME SECTION */}
       <section id='home' className="relative scroll-mt-20 w-full bg-white dark:bg-dark-bg min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center" style={{ backgroundImage: "url('images/climpek.png')" }}>
         <span className="hidden dark:block pointer-events-none absolute top-2 left-2 w-72 h-72 bg-primary/10 blur-3xl rounded-2xl"></span>
