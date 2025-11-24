@@ -10,8 +10,10 @@ export default async function Header() {
     <header className="z-10 fixed h-20 w-full p-2 flex justify-center items-center bg-white/85 dark:bg-dark-bg/85 backdrop-blur-xl shadow-md">
       <div className="w-full max-w-7xl flex justify-between items-center">
         <div>
-          <a href="#home"><Image src="/images/shood.png" alt="Shood Logo" width={120} height={40} className="w-24 md:w-32 dark:hidden"/></a>
-          <a href="#home"><Image src="/images/shood-dark.png" alt="Shood Logo Dark" width={120} height={40} className="w-24 md:w-32 hidden dark:block"/></a>
+          <a href="#home">
+            <Image src="/images/shood.png" alt="Shood Logo" width={120} height={40} className="w-24 md:w-32 dark:hidden"/>
+            <Image src="/images/shood-dark.png" alt="Shood Logo Dark" width={120} height={40} className="w-24 md:w-32 hidden dark:block"/>
+          </a>
         </div>
         <nav className="hidden sm:flex flex-1 justify-center items-center">
           <ul className="flex items-center gap-2 lg:px-4 sm:gap-10 sm:px-10 text-secondary dark:text-dark-fg text-sm md:text-lg">

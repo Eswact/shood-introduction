@@ -17,7 +17,7 @@ export default async function Landing() {
   ];
 
   return (
-    <div className="w-full pt-20 flex flex-col items-center overflow-x-hidden">
+    <main className="w-full pt-20 flex flex-col items-center overflow-x-hidden">
       {/* HOME SECTION */}
       <section id='home' className="relative scroll-mt-20 w-full bg-white dark:bg-dark-bg min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center" style={{ backgroundImage: "url('images/climpek.png')" }}>
         <span className="hidden dark:block pointer-events-none absolute top-2 left-2 w-72 h-72 bg-primary/10 blur-3xl rounded-2xl"></span>
@@ -42,7 +42,7 @@ export default async function Landing() {
               <p className="text-base lg:text-lg font-semibold">{t('home.description')}</p>
             </FadeInUp>
             <FadeInUp delay={0.6}>
-              <a href="#contact" className="px-8 py-3 text-lg lg:text-xl font-bold text-white bg-primary rounded-xl shadow-lg hover:bg-opacity-90 transition-all">
+              <a href="#contact" className="px-8 py-3 text-lg lg:text-xl font-bold text-white bg-indigo-600 rounded-xl shadow-xl hover:bg-opacity-90 transition-all">
                 {t('home.contact')}
               </a>
             </FadeInUp>
@@ -54,7 +54,7 @@ export default async function Landing() {
       <section id='services' className="scroll-mt-20 w-full bg-bg dark:bg-secondary min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center">
         <div className="max-w-7xl p-6 sm:p-12 w-full flex flex-col items-center gap-8">
           <FadeIn>
-            <h3 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>{t(`services.section`)}</h3>
+            <h2 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>{t(`services.section`)}</h2>
           </FadeIn>
           <div className='flex-1 flex flex-col items-center justify-center gap-12 text-center'>
             <FadeInUp>
@@ -88,9 +88,9 @@ export default async function Landing() {
       <section id='about' className="scroll-mt-20 w-full bg-white dark:bg-dark-bg min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center">
         <div className="max-w-7xl p-6 sm:p-12 w-full flex flex-col items-center gap-8">
           <FadeIn>
-            <h3 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>
+            <h2 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>
               {t(`about.section`)}
-            </h3>
+            </h2>
           </FadeIn>
           <div className='w-full flex-1 flex flex-col items-center justify-center gap-16 text-center'>
             <FadeInUp>
@@ -176,9 +176,9 @@ export default async function Landing() {
       <section id='contact' className="scroll-mt-20 w-full bg-bg dark:bg-secondary min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center pb-10">
         <div className="max-w-7xl p-6 sm:p-12 w-full flex flex-col items-center gap-8">
           <FadeIn>
-            <h3 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>
+            <h2 className='text-base font-bold px-4 py-1 text-tertiary border-2 border-tertiary bg-tertiary/25 rounded-full shadow-xl'>
               {t(`contact.section`)}
-            </h3>
+            </h2>
           </FadeIn>
           <div className='w-full flex-1 flex flex-col items-center justify-center gap-12 text-center'>
             <FadeInUp>
@@ -267,6 +267,6 @@ export default async function Landing() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
