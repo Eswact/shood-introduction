@@ -2,6 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import { useState, useRef, useEffect } from 'react';
+import { usePreferencesStore } from '@/src/stores/preferences-store';
 
 const themes = [
   {
@@ -49,7 +50,8 @@ const themes = [
 ];
 
 export default function ThemeSwitcher() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme: setNextTheme } = useTheme();
+  const { setTheme: setStoreTheme } = usePreferencesStore();
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -70,17 +72,23 @@ export default function ThemeSwitcher() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const handleThemeChange = (newTheme: string) => {
+    setNextTheme(newTheme);
+    setStoreTheme(newTheme as 'light' | 'dark' | 'system');
+    setIsOpen(false);
+  };
+
   if (!mounted) {
     return (
-        <div className="relative">
-            <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center justify-center px-3 py-2 rounded-lg border border-transparent"
-                aria-label="Select theme"
-            >
-                { themes.find((t) => t.value === 'system')?.icon }
-            </button>
-        </div>
+      <div className="relative">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="flex items-center justify-center px-3 py-2 rounded-lg border border-transparent"
+          aria-label="Select theme"
+        >
+          {themes.find((t) => t.value === 'system')?.icon}
+        </button>
+      </div>
     );
   }
 
@@ -101,10 +109,7 @@ export default function ThemeSwitcher() {
           {themes.map((t) => (
             <button
               key={t.value}
-              onClick={() => {
-                setTheme(t.value);
-                setIsOpen(false);
-              }}
+              onClick={() => handleThemeChange(t.value)}
               className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-100 dark:hover:bg-black/30 transition-colors ${
                 theme === t.value ? 'bg-gray-50 dark:bg-black/15' : ''
               }`}

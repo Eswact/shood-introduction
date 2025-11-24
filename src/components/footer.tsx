@@ -167,7 +167,7 @@ export default async function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t-2 border-dark-fg/85 dark:border-secondary py-4 sm:py-8 flex flex-col-reverse sm:flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t-2 border-dark-fg/85 dark:border-secondary py-4 flex flex-col-reverse sm:flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-dark-fg opacity-85 text-center md:text-left">
             {t('bottom.copyright', { year: new Date().getFullYear() })}
           </p>
@@ -191,6 +191,10 @@ export default async function Footer() {
               {t('bottom.cookies')}
             </a>
           </div>
+        </div>
+
+        <div className='w-full flex items-center justify-center pb-2'>
+          <a href='https://github.com/Eswact' target='_blank' className='text-primary hover:text-tertiary transition-all'>{t('note')}</a>
         </div>
       </div>
     </footer>

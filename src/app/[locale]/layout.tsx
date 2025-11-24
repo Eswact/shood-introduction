@@ -7,6 +7,7 @@ import Seo from "@/src/types/seo";
 import Header from "@/src/components/header";
 import Footer from "@/src/components/footer";
 import ThemeProvider from "@/src/components/theme-provider";
+import LocaleInitializer from "@/src/components/locale-initializer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -88,6 +89,7 @@ export default async function RootLayout({
       <body className={`${montserrat.variable} bg-bg dark:bg-dark-bg text-fg dark:text-dark-fg min-h-screen`}>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
+            <LocaleInitializer />
             <Header />
             {children}
             <Footer />

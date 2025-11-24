@@ -1,13 +1,15 @@
 'use client';
 
+import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
+import { usePreferencesStore } from '@/src/stores/preferences-store';
 
 const languages = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'en', name: 'English', flag: 'en.svg' },
+  { code: 'tr', name: 'Türkçe', flag: 'tr.svg' },
+  { code: 'es', name: 'Español', flag: 'es.svg' },
 ];
 
 export default function LanguageSwitcher() {
@@ -16,6 +18,7 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const { setLocale: setStoreLocale } = usePreferencesStore();
 
   const currentLanguage = languages.find((lang) => lang.code === locale);
 
@@ -34,6 +37,9 @@ export default function LanguageSwitcher() {
     const segments = pathname.split('/');
     segments[1] = langCode;
     const newPath = segments.join('/');
+    
+    setStoreLocale(langCode as 'tr' | 'en' | 'es');
+    
     router.push(newPath);
     setIsOpen(false);
   };
@@ -45,7 +51,7 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-3 px-3 py-2 rounded-lg bg-transparent border border-transparent hover:bg-gray-100 dark:hover:bg-black/10 hover:border-gray-200 dark:hover:border-black/20 transition-colors"
         aria-label="Select language"
       >
-        <span className="text-xl">{currentLanguage?.flag}</span>
+        <Image src={`/images/flags/${currentLanguage?.flag}`} alt={`${currentLanguage?.name} flag`} width={28} height={20} />
         <span className="text-sm font-medium">{currentLanguage?.code.toUpperCase()}</span>
         <svg
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
@@ -67,7 +73,7 @@ export default function LanguageSwitcher() {
                 locale === lang.code ? 'bg-gray-50 dark:bg-black/15' : ''
               }`}
             >
-              <span className="text-2xl">{lang.flag}</span>
+              <Image src={`/images/flags/${lang.flag}`} alt={`${lang.name} flag`} width={32} height={24} />
               <div className="flex flex-col items-start">
                 <span className="text-sm font-medium">{lang.name}</span>
                 <span className="text-xs text-gray-500">{lang.code.toUpperCase()}</span>
