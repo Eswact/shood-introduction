@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { Twitter, Linkedin, Github, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import ContactForm from '@/src/components/contact-form';
 import { FadeInUp, FadeIn, ScaleIn, SlideInLeft, SlideInRight, StaggerContainer, StaggerItem } from '@/src/components/animated-section';
+import Hero from '@/src/components/hero';
 
 export default async function Landing() {
   const t = await getTranslations('landing');
@@ -22,32 +23,7 @@ export default async function Landing() {
       <section id='home' className="relative scroll-mt-20 w-full bg-white dark:bg-dark-bg min-h-[calc(100vh-5rem)] flex flex-col items-center justify-center" style={{ backgroundImage: "url('images/climpek.png')" }}>
         <span className="hidden dark:block pointer-events-none absolute top-2 left-2 w-72 h-72 bg-primary/10 blur-3xl rounded-2xl"></span>
         <span className="hidden dark:block pointer-events-none absolute bottom-8 right-8 w-72 h-72 bg-tertiary/10 blur-3xl rounded-2xl"></span>
-        <div className='max-w-7xl px-6 sm:px-12 pb-16 pt-4 flex flex-col items-center justify-center gap-4 text-center'>
-          <ScaleIn>
-            <div className='aspect-square bg-white dark:bg-dark-bg rounded-lg flex items-center justify-center shadow-lg'>
-              <Image src={'/icons/icon-512x512.png'} alt="Shood" width={72} height={72} className='w-16 sm:w-18' />
-            </div>
-          </ScaleIn>
-          <div className='flex-1 flex flex-col items-center justify-center gap-10 sm:gap-16 text-center'>
-            <FadeInUp delay={0.2}>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black dark:text-white">
-                <span>{t('home.title.first-line.start')} </span>
-                <span className="bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent font-extrabold">{t('home.title.first-line.highlight')} </span>
-                <span>{t('home.title.first-line.end')} </span>
-                <span>{t('home.title.second-line')} </span>
-                <span className="bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent font-extrabold">{t('home.title.third-line')}</span>
-              </h1>
-            </FadeInUp>
-            <FadeInUp delay={0.4}>
-              <p className="text-base lg:text-lg font-semibold">{t('home.description')}</p>
-            </FadeInUp>
-            <FadeInUp delay={0.6}>
-              <a href="#contact" className="px-8 py-3 text-lg lg:text-xl font-bold text-white bg-indigo-600 rounded-xl shadow-xl hover:bg-opacity-90 transition-all">
-                {t('home.contact')}
-              </a>
-            </FadeInUp>
-          </div>
-        </div>
+        <Hero />
       </section>
 
       {/* SERVICES SECTION */}
@@ -65,9 +41,9 @@ export default async function Landing() {
             </FadeInUp>
             <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[0, 1, 2, 3, 4, 5].map((index) => (
-                <StaggerItem key={index}>
-                  <div className="bg-linear-to-br from-white to-white/50 dark:from-dark-bg dark:to-dark-bg/50 border-2 border-white dark:border-dark-bg p-8 rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col items-center text-center gap-4">
-                    <div className="w-16 h-16 rounded-lg">
+                <StaggerItem key={index} className="h-full">
+                  <div className="h-full bg-linear-to-br from-white to-white/50 dark:from-dark-bg dark:to-dark-bg/50 border-2 border-white dark:border-dark-bg p-8 rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-1 flex flex-col items-center text-center gap-4">
+                    <div className="w-16 h-16 rounded-lg flex-shrink-0">
                       <Image src={servicesImages[index].image} alt={servicesImages[index].alt} width={72} height={72} />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-black dark:text-white">

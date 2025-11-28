@@ -4,7 +4,7 @@ export default interface Seo {
     template: string;
   };
   description: string;
-  keywords: string;
+  keywords: string[];
   openGraph?: {
     title: string;
     description: string;

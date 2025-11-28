@@ -2,7 +2,7 @@
   "seo": {
     "title": {
       "default": "Shood",
-      "template": "%s | Shood"
+      "template": "Shood"
     },
     "description": "We turn your ideas into powerful digital experiences.",
     "keywords": [
