@@ -17,22 +17,7 @@
       "diseño",
       "consultoría",
       "mantenimiento"
-    ],
-    "openGraph": {
-      "title": "Shood",
-      "description": "Convertimos tus ideas en poderosas experiencias digitales.",
-      "type": "website",
-      "siteName": "Shood",
-      "locale": "es_ES",
-      "images": [
-        "/og-image-es.png"
-      ]
-    },
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "@shood",
-      "creator": "@shood"
-    }
+    ]
   },
   "shared": {
     "services": "Servicios",

@@ -17,22 +17,7 @@
       "tasarım",
       "danışmanlık",
       "bakım"
-    ],
-    "openGraph": {
-      "title": "Shood",
-      "description": "Fikirlerinizi güçlü dijital deneyimlere dönüştürüyoruz.",
-      "type": "website",
-      "siteName": "Shood",
-      "locale": "tr_TR",
-      "images": [
-        "/og-image-tr.png"
-      ]
-    },
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "@shood",
-      "creator": "@shood"
-    }
+    ]
   },
   "shared": {
     "services": "Hizmetlerimiz",

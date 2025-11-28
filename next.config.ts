@@ -9,6 +9,8 @@ const withPWA = withPWAInit({
   disable: false,
 });
 
-export default withNextIntl(withPWA({
+const nextConfig = {
   reactStrictMode: true,
-}));
+};
+
+export default withNextIntl(withPWA(nextConfig));
