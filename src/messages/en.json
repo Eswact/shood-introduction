@@ -4,17 +4,23 @@
       "default": "Shood",
       "template": "%s | Shood"
     },
-    "description": "Your base project for a Next.js website with tailwindcss, SEO, i18n, and pwa support.",
+    "description": "We turn your ideas into powerful digital experiences.",
     "keywords": [
-      "next.js",
-      "react",
+      "software",
+      "digital",
       "website",
-      "multilingual",
-      "i18n"
+      "web development",
+      "mobile apps",
+      "cloud",
+      "cluod solutions",
+      "ui/ux",
+      "design",
+      "consulting",
+      "maintenance"
     ],
     "openGraph": {
       "title": "Shood",
-      "description": "Your base project for a Next.js website with tailwindcss, SEO, i18n, and pwa support.",
+      "description": "We turn your ideas into powerful digital experiences.",
       "type": "website",
       "siteName": "Shood",
       "locale": "en_US",

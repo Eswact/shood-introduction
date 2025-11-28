@@ -4,17 +4,23 @@
       "default": "Shood",
       "template": "%s | Shood"
     },
-    "description": "Tailwindcss, SEO, i18n ve pwa desteğine sahip Next.js web siteniz için temel projeniz.",
+    "description": "Fikirlerinizi güçlü dijital deneyimlere dönüştürüyoruz.",
     "keywords": [
-      "next.js",
-      "react",
+      "yazılım",
+      "dijital",
       "web sitesi",
-      "çok dilli",
-      "i18n"
+      "web geliştirme",
+      "mobil uygulamalar",
+      "bulut",
+      "bulut çözümleri",
+      "ui/ux",
+      "tasarım",
+      "danışmanlık",
+      "bakım"
     ],
     "openGraph": {
       "title": "Shood",
-      "description": "Tailwindcss, SEO, i18n ve pwa desteğine sahip Next.js web siteniz için temel projeniz.",
+      "description": "Fikirlerinizi güçlü dijital deneyimlere dönüştürüyoruz.",
       "type": "website",
       "siteName": "Shood",
       "locale": "tr_TR",

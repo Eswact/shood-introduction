@@ -15,7 +15,7 @@ export function FadeInUp({ children, className = '', delay = 0 }: AnimatedSectio
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay, ease: "easeOut" }}
+      transition={{ duration: 0.4, delay, ease: "easeOut" }}
       className={className}
     >
       {children}
@@ -29,7 +29,7 @@ export function FadeIn({ children, className = '', delay = 0 }: AnimatedSectionP
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.8, delay }}
+      transition={{ duration: 0.6, delay }}
       className={className}
     >
       {children}
@@ -43,7 +43,7 @@ export function ScaleIn({ children, className = '', delay = 0 }: AnimatedSection
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.5, delay, ease: "easeOut" }}
+      transition={{ duration: 0.4, delay, ease: "easeOut" }}
       className={className}
     >
       {children}
@@ -57,7 +57,7 @@ export function SlideInLeft({ children, className = '', delay = 0 }: AnimatedSec
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay, ease: "easeOut" }}
+      transition={{ duration: 0.4, delay, ease: "easeOut" }}
       className={className}
     >
       {children}
@@ -71,7 +71,7 @@ export function SlideInRight({ children, className = '', delay = 0 }: AnimatedSe
       initial={{ opacity: 0, x: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay, ease: "easeOut" }}
+      transition={{ duration: 0.4, delay, ease: "easeOut" }}
       className={className}
     >
       {children}

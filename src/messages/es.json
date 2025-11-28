@@ -4,17 +4,23 @@
       "default": "Shood",
       "template": "%s | Shood"
     },
-    "description": "Su proyecto base para un sitio web Next.js con soporte para tailwindcss, SEO, i18n y pwa.",
+    "description": "Convertimos tus ideas en poderosas experiencias digitales.",
     "keywords": [
-      "next.js",
-      "react",
+      "software",
+      "digital",
       "sitio web",
-      "multilingüe",
-      "i18n"
+      "desarrollo web",
+      "aplicaciones móviles",
+      "nube",
+      "soluciones en la nube",
+      "ui/ux",
+      "diseño",
+      "consultoría",
+      "mantenimiento"
     ],
     "openGraph": {
       "title": "Shood",
-      "description": "Su proyecto base para un sitio web Next.js con soporte para tailwindcss, SEO, i18n y pwa.",
+      "description": "Convertimos tus ideas en poderosas experiencias digitales.",
       "type": "website",
       "siteName": "Shood",
       "locale": "es_ES",
