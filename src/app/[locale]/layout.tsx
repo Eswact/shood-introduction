@@ -23,7 +23,11 @@ export const viewport: Viewport = {
   userScalable: true,
 };
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: Promise<{ locale: string }> 
+}): Promise<Metadata> {
   const { locale } = await params;
   const messages = await getMessages({ locale });
   const seo = messages.seo as Seo;
@@ -35,15 +39,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: seo.description,
     keywords: seo.keywords,
-    manifest: "/manifest.json",
-    appleWebApp: {
-      capable: true,
-      statusBarStyle: "default",
-      title: seo.title.default,
-    },
-    formatDetection: {
-      telephone: false,
-    },
     openGraph: {
       title: seo.openGraph?.title,
       description: seo.openGraph?.description,
@@ -59,15 +54,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       site: seo.twitter?.site,
       creator: seo.twitter?.creator
     },
-    icons: {
-      icon: [
-        { url: '/icons/icon-128x128.png', sizes: '128x128', type: 'image/png' },
-        { url: '/icons/icon-512x512.png', sizes: '512x512', type: 'image/png' }
-      ],
-      apple: [
-        { url: '/icons/icon-152x152.png', sizes: '152x152', type: 'image/png' }
-      ]
-    }
   };
 }
 

@@ -6,8 +6,9 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const withPWA = withPWAInit({
   dest: "public",
   register: true,
+  disable: false,
 });
 
-export default withPWA(withNextIntl({
+export default withNextIntl(withPWA({
   reactStrictMode: true,
 }));
