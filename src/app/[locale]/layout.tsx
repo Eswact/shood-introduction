@@ -62,6 +62,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="pmVFhPpb5a5vXvZtVQg_IUfWgfA-zhXpKl4uZBF0Ajg"
+        />
+      </head>
       <body className={`${montserrat.variable} bg-bg dark:bg-dark-bg text-fg dark:text-dark-fg min-h-screen`}>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
